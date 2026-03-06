@@ -287,22 +287,27 @@
     background-color: #f9f9f9; /* 배경색 */
     // border-bottom: 1px solid #ddd;
   }
-
-  .btn-go-site {
+      /* 버튼 스타일 설정 */
+  .go-home-button {
     display: inline-block;
-    padding: 12px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: trnasparent;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50px; /* 둥근 버튼 */
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 40px;      /* 버튼 안쪽 여백 (크기 조절) */
+    background-color: #000;   /* 배경색: 검정 */
+    color: #FF4500;           /* 글자색: 주황 (이미지와 유사한 색상) */
+    text-decoration: none;    /* 밑줄 제거 */
+    font-size: 24px;          /* 글자 크기 */
+    font-weight: bold;        /* 글자 굵게 */
+    border-radius: 8px;       /* 모서리 곡률 (이미지 느낌) */
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* 부드러운 효과 */
   }
 
-  .btn-go-site:hover {
-    background-color: #0056b3; /* 마우스 올렸을 때 색상 */
+  /* 마우스를 올렸을 때 (Hover) 효과 */
+  .go-home-button:hover {
+    background-color: #222;   /* 배경을 살짝 밝게 */
+    transform: scale(1.02);   /* 크기 아주 살짝 키우기 */
+  }
+
     </style>
 
 <meta name="google-site-verification" content="8x_c6tI7sMDgo4SM6EKk05mVG5dPQAMo--EpiXza82I" />
